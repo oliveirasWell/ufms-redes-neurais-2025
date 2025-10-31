@@ -58,6 +58,7 @@ models/
 checkpoints/
 runs/
 logs/
+checkpoint_*_model_epoch_*.pth
 
 # macOS
 .DS_Store
