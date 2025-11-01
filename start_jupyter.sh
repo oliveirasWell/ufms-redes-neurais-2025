@@ -1,5 +1,5 @@
 #!/bin/bash
 
 source venv/bin/activate
-jupyter notebook
+jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password=''
 

@@ -84,3 +84,4 @@ checkpoint_*_model_epoch_*.pth
 !figures/*.jpeg
 !figures/*.pdf
 
+final_report.png
