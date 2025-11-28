@@ -85,3 +85,5 @@ checkpoint_*_model_epoch_*.pth
 !figures/*.pdf
 
 final_report.png
+
+/rag/regulamento_facomp.txt
