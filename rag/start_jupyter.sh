@@ -9,6 +9,9 @@ if [ ! -d "venv" ]; then
     fi
 else
     source venv/bin/activate
+    if [ -f "requirements.txt" ]; then
+        pip install -r requirements.txt
+    fi
 fi
 
 ../start_jupyter.sh
